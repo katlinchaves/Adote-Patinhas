@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilPetActivity">
+
+    <LinearLayout
+        style="@style/stlLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="PET PERFIL" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            style="@style/img2"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/cat" />
+
+        <TextView
+            android:id="@+id/textView87"
+            style="@style/txtTitleR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="@string/txtPet" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorShadow" />
+
+        <TextView
+            android:id="@+id/textView90"
+            style="@style/txtTextR"
+            android:layout_height="wrap_content"
+            android:text="@string/txtOng" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView88"
+            style="@style/txtTextR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="@string/txtLocal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView89"
+            style="@style/txtTextR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="@string/txtPetD" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/btnGetPet"
+            style="@style/btnAdote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/templater5"
+            android:text="ADOTE"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        style="@style/menuBarra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/btnMain"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtI" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnAdote"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtA" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnOngs"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtO" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnPerfil"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtP" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

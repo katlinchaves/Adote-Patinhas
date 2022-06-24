@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/templater2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Adote Patinhas, um amor de verdade !"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Sobre nós"
+                    android:textColor="@color/colorSecondaryDark" />
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/txtSobre"
+                        android:textColor="@color/colorBlack" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        style="@style/img2"
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        app:srcCompat="@drawable/cat6" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Urgente:" />
+
+                <LinearLayout
+                    style="@style/stlLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/cat" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            style="@style/txtPet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar1"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/dog" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            style="@style/txtPet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet2" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng2" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar2"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Últimas do Blog"
+                    android:textColor="@color/colorSecondaryDark" />
+
+                <TextView
+                    android:id="@+id/txtBlog"
+                    style="@style/txtLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ver todos os posts"
+                    android:textColorLink="@color/colorLink" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            style="@style/img2"
+                            android:layout_marginStart="16dp"
+                            app:srcCompat="@drawable/cat2" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            style="@style/txtTitleR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtB1"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtReportagem"
+                            android:textColor="@color/colorBlack" />
+
+                        <TextView
+                            android:id="@+id/txtB3"
+                            style="@style/btnVerMais"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btnVerMais"
+                            android:textColor="@color/colorLink" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/dog2" />
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            style="@style/txtTitleR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtB3"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtReportagem"
+                            android:textColor="@color/colorBlack" />
+
+                        <TextView
+                            android:id="@+id/txtB1"
+                            style="@style/btnVerMais"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btnVerMais"
+                            android:textColor="@color/colorLink" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        style="@style/menuBarra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/btnMain"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtI"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnAdote"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtA" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnOngs"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtO" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnPerfil"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtP" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdoptionActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/templater2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="ADOTE"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/txtTitleS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha com amor e responsabilidade"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/menuBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView56"
+                    style="@style/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Urgente" />
+
+                <LinearLayout
+                    style="@style/stlLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/cat" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            style="@style/txtPet"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPetD"
+                            android:textColor="@color/colorBlack" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar1"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/dog" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            style="@style/txtPet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet2" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng2" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPetD" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar2"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    style="@style/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patinhas que estão esperando " />
+
+                <LinearLayout
+                    style="@style/stlLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/cat6" />
+
+                        <TextView
+                            android:id="@+id/textView58"
+                            style="@style/txtPet"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet3" />
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng3" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            style="@style/txtAdote"
+                            android:layout_height="match_parent"
+                            android:text="@string/txtPetD" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar3"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            style="@style/img2"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/dog6"
+                            tools:srcCompat="@drawable/dog6" />
+
+                        <TextView
+                            android:id="@+id/textView59"
+                            style="@style/txtPet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet4" />
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng4" />
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView62"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPetD" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar4"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/stlLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/cat6" />
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            style="@style/txtPet"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet3" />
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng3" />
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView52"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPetD" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar5"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/stlLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            style="@style/img2"
+                            app:srcCompat="@drawable/dog6" />
+
+                        <TextView
+                            android:id="@+id/textView50"
+                            style="@style/txtPet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPet4" />
+
+                        <TextView
+                            android:id="@+id/textView48"
+                            style="@style/txtAdote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtOng4" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            style="@style/txtAdote"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtLocal" />
+
+                        <TextView
+                            android:id="@+id/textView49"
+                            style="@style/txtTextR"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txtPetD" />
+
+                        <TextView
+                            android:id="@+id/btnAdotar6"
+                            style="@style/btnAdote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        style="@style/menuBarra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/btnMain"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtI" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnAdote"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtA"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnOngs"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtO" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnPerfil"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtP" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

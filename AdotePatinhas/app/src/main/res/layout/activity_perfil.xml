@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+    <LinearLayout
+        style="@style/stlLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="MEU PERFIL" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            style="@style/img2"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView87"
+            style="@style/txtTitleR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="katlinchaves" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorShadow" />
+
+        <TextView
+            android:id="@+id/textView88"
+            style="@style/txtTextR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="@string/txtLocal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/textView89"
+            style="@style/txtTextR"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templater4"
+            android:text="Nenhuma adoção em andamento" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        style="@style/menuBarra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/btnMain"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtI" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnAdote"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtA" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnOngs"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtO" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnPerfil"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtP"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

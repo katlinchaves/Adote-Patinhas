@@ -1,0 +1,234 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">Roboto</item>
+    </style>
+
+    <!-- Botoes. -->
+    <style name="btnVerMais" >
+        <item name="android:text">@string/btnVerMais</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="btnAdote" >
+        <item name="android:text">Adote</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="btnMenu" >
+<!--        <item name="android:background">@drawable/</item> -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <!-- Texto. -->
+    <style name="txtLink" >
+        <item name="android:textColor">@color/colorLink</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="txtTitle" >
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="txtTitleS" >
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="txtData" >
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="txtTitleR" >
+        <item name="android:layout_width">170dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+
+    <style name="txtTextR" >
+        <item name="android:layout_width">170dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:text">@string/txtReportagem</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="viwTitle" >
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:text">center</item>
+    </style>
+
+    <style name="txtAdote" >
+        <item name="android:layout_width">170dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="txtPet" >
+        <item name="android:layout_width">170dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Imagens. -->
+
+    <style name="img2" >
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/templater</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="imgViewC2" >
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/cat2</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="imgViewD23" >
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/dog3</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="imgViewD2" >
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/dog2</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="imgViewC3" >
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+         <item name="android:layout_marginRight">16dp</item>
+          <item name="android:layout_marginTop">8dp</item>
+         <item name="android:background">@drawable/cat2</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="imgViewD3" >
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/dog2</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+    <style name="imgViewD33" >
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/dog3</item>
+        <item name="android:radius">5dp</item>
+    </style>
+
+
+    <style name="menuBarra" >
+        <item name="android:text">center</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="stlLayout" >
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="stlLayout2" >
+        <item name="android:shadowColor">@color/colorShadow2</item>
+        <item name="android:background">@drawable/templater</item>
+    </style>
+
+    <style name="stlLogin" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/templater3</item>
+        <item name="android:editable">true</item>
+    </style>
+
+</resources>

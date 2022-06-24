@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Adote Patinhas</string>
+
+    <string name="btnVerMais">Ler Mais</string>
+
+    <string name="btnLerMais">Leia Mais</string>
+
+    <string name="txtB1">Cuidados com a higiene do seu pet !</string>
+
+    <string name="txtB2">Brinquedos que ajudam o seu bichinho !</string>
+
+    <string name="txtB3">Vacinas: saiba quais seu pet precisa !</string>
+
+    <string name="txtReportagem"> Sabia que os pets precisam disso para uma vida com mais qualidade, por isso é importante. </string>
+
+    <string name="txtPetD"> Super dócil e carinhoso, sua raça é tal e tem x meses de idade. </string>
+
+    <string name="txtLocal">São Paulo - SP</string>
+
+    <string name="txtOng">Clube Totó</string>
+
+    <string name="txtOng2">Mia Casa</string>
+
+    <string name="txtOng3">Lar Vira Lata</string>
+
+    <string name="txtOng4">Abrigo Animal</string>
+
+    <string name="txtPet">Sherlock</string>
+
+    <string name="txtPet2">Tarzan</string>
+
+    <string name="txtPet3">Penélope</string>
+
+    <string name="txtPet4">Hermione</string>
+
+    <string name="txtI">ÍNICIO</string>
+
+    <string name="txtA">ADOTE</string>
+
+    <string name="txtO">ONGS</string>
+
+    <string name="txtP">PERFIL</string>
+
+    <string name="txtSobre">Olá! Nós somos a Adote Patinhas! Nosso objetivo é combater o excesso de animais de rua e o abandono, conectando entidades responsáveis e futuros tutores.</string>
+
+
+
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+
+</resources>

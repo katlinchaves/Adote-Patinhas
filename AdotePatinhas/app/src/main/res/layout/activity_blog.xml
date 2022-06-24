@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/templater2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="BLOG"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        style="@style/imgViewC2" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        style="@style/txtData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="20 de outubro de 2021"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        style="@style/txtTitleR"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtB1" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        style="@style/txtTextR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/button"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        style="@style/imgViewD2"
+                        android:layout_marginStart="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        style="@style/txtData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="20 de setembro de 2021"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        style="@style/txtTitleR"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/txtB3" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        style="@style/txtTextR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/button7"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais"
+                        android:textColor="@color/colorLink" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        style="@style/imgViewD23" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        style="@style/txtData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="20 de novembro de 2021"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        style="@style/txtTitleR"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/txtB2" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        style="@style/txtTextR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        style="@style/imgViewC2" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        style="@style/txtData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="20 de outubro de 2021"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        style="@style/txtTitleR"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/txtB1" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        style="@style/txtTextR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/stlLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView61"
+                        style="@style/imgViewC2"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        style="@style/txtData"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20 de outubro de 2021" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        style="@style/txtTitleR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtB1" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        style="@style/txtTextR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/button5"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais"
+                        android:textColor="@color/colorLink" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/stlLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/imgViewD23"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        style="@style/txtData"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20 de novembro de 2021" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        style="@style/txtTitleR"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtB2" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        style="@style/txtTextR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtReportagem"
+                        android:textColor="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/button6"
+                        style="@style/btnVerMais"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnVerMais"
+                        android:textColor="@color/colorLink" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        style="@style/menuBarra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/btnMain"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtI" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnAdote"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtA" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnOngs"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txtO" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btnPerfil"
+            style="@style/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtP" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

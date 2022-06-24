@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        style="@style/stlLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView86"
+            style="@style/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="ENTRAR" />
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/txtTitleS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:text="Por favor, digite seu login e senha :)" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/img2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="90dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            style="@style/stlLogin"
+            android:layout_marginLeft="34dp"
+            android:ems="10"
+            android:hint="Usuário"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtSenha"
+            style="@style/stlLogin"
+            android:layout_marginLeft="34dp"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnEntrar"
+            style="@style/stlLogin"
+            android:layout_marginLeft="95dp"
+            android:text="ENTRAR" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
